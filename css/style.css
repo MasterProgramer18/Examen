@@ -1,0 +1,17 @@
+.seccion{
+    width: 1343px; height: 560px;
+    border: 2px solid #ecf0f1;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+img{
+    object-fit: cover;
+    transition: 1s ease;
+}
+
+img:hover{
+    transform: scale(1.4);
+}
